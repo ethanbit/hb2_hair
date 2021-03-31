@@ -1,0 +1,35 @@
+#mc_embed_signup input.email{
+float:left;width:250px; height:35px; border-radius: 50px 0 0 50px;  
+ }
+
+#mc_embed_signup .button {
+margin-left:-36px!important;
+    font-size: 13px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0 50px 50px 0;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: #f9346e;
+    box-sizing: border-box;
+    height: 35px;
+    line-height: 32px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 0;
+    transition: all 0.23s ease-in-out 0s;
+}	
+#mc_embed_signup{background:transparent; padding:0;clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	
+@media (max-width: 768px){
+	   #mc_embed_signup input.email {
+    float: left;
+    width: 155px;
+    height: 35px;
+    border-radius: 0;
+}
+#mc_embed_signup .button {
+    margin-left: 0px!important;
+	}
+}
